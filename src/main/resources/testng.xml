@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="freecrmsuite" >
+  <test name="freecrmapptest" >
+    <classes>
+       <class name="qa.com.freecrm.testcases.homepagetest" />
+        <class name="qa.com.freecrm.testcases.loginpagetest" />
+         <class name="qa.com.freecrm.testcases.contactpagetest" />
+       
+    </classes>
+  </test>
+</suite>
